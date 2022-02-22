@@ -1,59 +1,41 @@
 
 body{
     background-color: #242524;
+}
     
-}
 
 
-.product-grid{
-    display: grid;         
-}
-
-.main{
-    grid-column: 2/6;
-    grid-row: 1/8;
-
-}
-.hr{
-    background-color: rgb(180, 74, 109);
-}
 .category{
     display: grid;
-    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-columns: 1fr;
     grid-gap:10px;
-    margin-left: 4rem;
+    margin-left: 3rem;
+    margin-right: 1rem;
     margin-top: 2rem;
 
 }
-.side-bar{
-    grid-column: 1/2;
-    grid-row: 2/6;
-}
-.side-head{
-    display: flex;
-    gap: 2rem;
-}
-.aside p,input,label,h2{
-    padding: 1rem;
-    margin-left: 1rem;
-    font-size: 20px;
-}
 
+
+aside{
+    color:#edf0f1;
+}
 
 .category-heading{
     margin:2rem 2rem;
     font-size:xx-large;
     color: rgb(180, 74, 109);
 }
+
 .category-image{
     width:300px;
     height:300px;
 }
+
 .category p{
     font-size: larger;
     color: #edf0f1;
 }
-
+ 
 .footer-header{
     background-color: rgb(180, 74, 109);
     padding: 2rem;
@@ -80,6 +62,7 @@ body{
     padding: 0 1rem;
     margin-top: 0px;
           }
+          
           li,a,button{
             font-family: monospace;
             font-weight: 500;
@@ -87,12 +70,14 @@ body{
             color:#edf0f1;
             text-decoration: none;
         }
+        
         header{
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 30px 10px;
         }
+        
         .heading{
             color: #edf0f1;
         }
@@ -103,7 +88,7 @@ body{
             display: inline-block;
             padding: 0px 20px;
         }
-        
+       
         .nav_links li a{
             transition: all 0.3s ease 0s;
         }
@@ -143,5 +128,51 @@ body{
         }
         .category-btn{
             display: flex
-        }
-        
+        } 
+
+
+
+
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    display: grid;
+}
+.aside{
+    grid-column: 1/2;
+    grid-row: 2/6;
+}
+.aside-head{
+    display:flex;
+    gap: 2rem;
+}
+.aside p,input,label,h2{
+    padding: 1rem;
+    margin-left: 1rem;
+    font-size: 20px;
+}
+.main-info{
+    display: grid;
+     grid-column: 2/3;
+     grid-row: 2/4;
+}
+.main-info2{
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+.main-info3{
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 2/4;
+}
+.primary{
+    color: rgb(180, 74, 109);
+    cursor: pointer;
+    opacity: 0.8;
+}
+
