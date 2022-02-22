@@ -102,9 +102,10 @@ button{
     color: #edf0f1;
 }
 .dismiss{
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
     justify-content: center;
+   
 }
 .footer-header h2{
     background-color: rgb(180, 74, 109);
@@ -124,4 +125,7 @@ button{
 .card-container{
     display: flex;
     flex-direction: row;
+}
+.container{
+    background-color: #242524;
 }
