@@ -1,0 +1,32 @@
+body{
+    max-width: 400px;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+input{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 350px;
+}
+.heading{
+    color: rgb(180,74,109);
+}
+.cancel{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: rgb(207, 87, 87);
+    margin-top: 1rem;
+    width: 175px;
+}
+.signup{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: rgb(115, 177, 115);
+    margin-top: 1rem;
+    width: 175px;
+}
+i{
+margin-left: -30px; 
+cursor: pointer;
+}
