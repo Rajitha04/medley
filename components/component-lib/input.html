@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="input.css" rel="stylesheet"/>
+</head>
+<body>
+  <h1 class="heading-content">Input Component</h1>
+  <p class="para-content">An input component is used to get the information from the user, there are different ways to get the input, some of thme are given below</p>
+ <hr>
+ <h2 class="heading-content">Date Input</h2>
+<!--date input-->
+  <div class="input-container">
+<label for="date">Start date</label>
+<input type="date" id="date" placeholder="dd:mm:yyyy"></input>
+</div>
+<p class="para-content">copy the below snippet for date input in html</p>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%253Clabel%2520for%253D%2522date%2522%253EStart%2520date%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522date%2522%2520id%253D%2522date%2522%2520placeholder%253D%2522dd%253Amm%253Ayyyy%2522%253E%253C%252Finput%253E%250A%253C%252Fdiv%253E"
+  style="width: 673px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+<!--checkbox input-->
+<h2 class="heading-content">checkbox Input</h2>
+  <p class="para-content">Check box Input is used when more than one options are required to get the input</p>
+<div class="input-container">
+    <label class="container">One
+        <input type="checkbox" checked="checked">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Two
+        <input type="checkbox">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Three
+        <input type="checkbox">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Four
+        <input type="checkbox">
+        <span class="checkmark"></span>
+      </label>
+</div>
+<p class="para-content">copy the below snippet for check box input in html</p>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522container%2522%253EOne%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520checked%253D%2522checked%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522checkmark%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522container%2522%253ETwo%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522checkmark%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522container%2522%253EThree%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522checkmark%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522container%2522%253EFour%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522checkmark%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
+  style="width: 563px; height: 577px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<!--dropdown input-->
+<h2 class="heading-content">Dropdown Input</h2>
+  <p class="para-content">dropdown input is used when the particular input has multiple choices</p>
+    <div>
+<div clas="input-container">
+    <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        </div>
+      </div> 
+    </div>
+</div>
+<p class="para-content">copy the below snippet in html file for drop down input</p>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520clas%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522dropdown%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522dropbtn%2522%253EDropdown%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522dropdown-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253ELink%25201%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253ELink%25202%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253ELink%25203%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%250A%250A%253C%252Fdiv%253E"
+  style="width: 563px; height: 391px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<!--text -input-->
+<h2 class="heading-content">Text Input</h2>
+  <p class="para-content">Text Input is to get the details from the user like name and email</p>
+
+<div class="input-container" action="#">
+<input type="text" placeholder="Name"/>
+<input type="text" placeholder="e-mail"/>
+</div>
+<p class="para-content">copy the below snippet in html file for text input</p>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%2520action%253D%2522%2523%2522%253E%250A%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522Name%2522%252F%253E%250A%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522e-mail%2522%252F%253E%250A%253C%252Fdiv%253E"
+  style="width: 496px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<!--text input with validation-->
+<h2 class="heading-content">Text Input With Validation</h2>
+  <p class="para-content">Text input with validation is used to indicate the required fields in the form, the background color changes as soon as the input is provided</p>
+  <div class="input-container" action="#">
+<input type="password" placeholder="password" required/>
+<input type="password" placeholder="confirm-password" required/>
+
+</div>
+<p class="para-content">copy the below snippet in html file for text input with validation</p>
+
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%2520action%253D%2522%2523%2522%253E%250A%253Cinput%2520type%253D%2522password%2522%2520placeholder%253D%2522password%2522%2520required%252F%253E%250A%253Cinput%2520type%253D%2522password%2522%2520placeholder%253D%2522confirm-password%2522%2520required%252F%253E%250A%250A%253C%252Fdiv%253E"
+  style="width: 689px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+</body>
+</html>
