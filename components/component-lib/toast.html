@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Toast Message UI</title>
+    <link href="toast.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1 class="heading-content">Toast Component</h1>
+    <p class="para-content">Toast component is like an alert box that is only shown for a couple of seconds when something happens</p><hr>
+   <h2 class="heading-content">Types of Toasts!</h2>
+  <p class="para-content">There are different types of toasts based on the result like error toast, success toast. The below toasts are created using display and position property and contains hover effects</p><!--sucess toast-->
+<!--success toast-->
+<div class="wrapper">
+    <div class="toast success">
+        <div class="container-1">
+            <i class="fas fa-check-circle"></i>
+        </div>
+        <div class="container-2">
+            <p>Success</p>
+            <p>Your changes are saved successfully</p>
+        </div>
+        <button>&times;</button>
+    </div>
+     <!--error toast-->
+    <div class="toast error">
+        <div class="container-1">
+            <i class="fas fa-times-circle"></i>
+        </div>
+        <div class="container-2">
+            <p>Error</p>
+            <p>Error has occured while saving changes.</p>
+        </div>
+        <button>&times;</button>
+    </div>
+     <!--info toast-->
+    <div class="toast info">
+        <div class="container-1">
+            <i class="fas fa-info-circle"></i>
+        </div>
+        <div class="container-2">
+            <p>Info</p>
+            <p>New settings available on your account.</p>
+        </div>
+        <button>&times;</button>
+    </div>
+     <!--warning toast-->
+    <div class="toast warning">
+        <div class="container-1">
+            <i class="fas fa-exclamation-circle"></i>
+        </div>
+        <div class="container-2">
+            <p>Warning</p>
+            <p>Username you have entered is invalid.</p>
+        </div>
+        <button>&times;</button>
+    </div>
+</div>
+<p class="para-content">copy the below snippet and paste it in html file for different types of toasts</p>  
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253C%21--sucess%2520toast--%253E%250A%253Cdiv%2520class%253D%2522wrapper%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESuccess%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EYour%2520changes%2520are%2520saved%2520successfully%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%2526times%253B%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%21--error%2520toast--%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EError%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EError%2520has%2520occured%2520while%2520saving%2520changes.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%2526times%253B%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%21--info%2520toast--%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EInfo%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ENew%2520settings%2520available%2520on%2520your%2520account.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%2526times%253B%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%21--warning%2520toast--%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EWarning%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EUsername%2520you%2520have%2520entered%2520is%2520invalid.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%2526times%253B%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe> 
+</body>
+</html>

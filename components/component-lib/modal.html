@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="modal.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1 class="heading-content">Modal Component</h1>
+<p class="para-content">A modal is a popup window that is displayed on the page</p>
+<hr>
+<!--simple modal-->
+<h2 class="heading-content">Simple Modal</h2>
+<p class="para-content">Simple Modal is used to display popup over the element when clicked</p>
+    <div class="wrapper">
+        <a href="#modalbox">Click here!</a>
+    </div>
+    <div class="modal-box" id="modalbox">
+        <div class="modal-content">
+            <h1>modal</h1>
+            <p>I am a modal built using HTML and css!</p>
+            <a href="#" class="modal-close">&times;</a>
+        </div>
+
+   
+    </div>
+    <p class="para-content">copy the below snippet in html file for simple modal</p>
+    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523modalbox%2522%253EClick%2520here%21%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-box%2522%2520id%253D%2522modalbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253Emodal%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EI%2520am%2520a%2520modal%2520built%2520using%2520HTML%2520and%2520css%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522modal-close%2522%253E%2526times%253B%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<!--bottom-modal-->
+<h2 class="heading-content">Edge Modal</h2>
+    <p class="para-content">Edge Modal is used to display popup over the left top edge when clicked</p>
+        <div class="wrapper">
+            <a href="#modalbox-two">Click here!</a>
+        </div>
+        <div class="modal-box-slide" id="modalbox-two">
+            <div class="modal-content-slide">
+                <h1>modal</h1>
+                <p>hey! i am another modal built using HTML and CSS</p>
+                <a href="#" class="modal-close">&times;</a>
+            </div>
+    
+        </div>
+      
+        <p class="para-content">copy the below snippet in html file for edge modal</p>
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523modalbox-two%2522%253EClick%2520here%21%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-box-slide%2522%2520id%253D%2522modalbox-two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content-slide%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253Emodal%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253Ehey%21%2520i%2520am%2520another%2520modal%2520built%2520using%2520HTML%2520and%2520CSS%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522modal-close%2522%253E%2526times%253B%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
+</body>
+</html>
