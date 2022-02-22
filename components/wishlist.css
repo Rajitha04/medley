@@ -125,7 +125,35 @@ button{
 .card-container{
     display: flex;
     flex-direction: row;
+  padding: 2rem;
+  
 }
+
 .container{
-    background-color: #242524;
+    max-width: 400px;
+    margin: auto;
+    padding: 0px;
+   
+}
+
+
+.wishlist-title{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.badge-card{
+    color:#edf0f1;
+
+}
+.wishlist-btn{
+display: grid;
+
+
+}
+.save-button{
+margin:1rem;
+}
+.buy-button{
+
 }
