@@ -11,157 +11,24 @@
     grid-row: 1/8;
     border: 1px solid black;
 }
-
-
-
-li,a,button{
-    font-family: monospace;
-    font-weight: 500;
-    font-size: 16px;
-    color:#edf0f1;
-    text-decoration: none;
+.category{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-gap:10px;
+    margin-left: 4rem;
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10px;
-}
-.heading{
-    color: #edf0f1;
-}
-.nav_links{
-    list-style: none;
-}
-.nav_links li{
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-.nav_links li a{
-    transition: all 0.3s ease 0s;
-}
-
-.nav_links li a:hover{
+.category-heading{
+    margin:2rem 2rem;
+    font-size:xx-large;
     color: rgb(180, 74, 109);
 }
-
-button{
-    padding: 9px 25px;
-    border: none;
-    border-radius: 50px;
-    cursor:pointer;
-    transition: all 0.3s ease 0s;
-    background-color: rgb(180, 74, 109);
-    
+.category-image{
+    width:300px;
+    height:300px;
 }
-
-.profile{
-    border: 2px solid rgb(180, 74, 109);
-    color: #edf0f1;
-    background-color: #242524;
-}
-.input-text{
-    background-color: rgb(180, 74, 109);
-}
-
-.button:hover{
-    transition: all 0.4s ease 0s;
-}
-
-.text-overlay img {
-    width: 100%;
-    position: relative;
-  }
-  
-  .text-overlay .overlay {
-    position: absolute;
-    bottom: 100px;
-    right: 15px;
-    color: #edf0f1;
-    background-color: transparent;
-    font-weight: bold;
-    text-align: right;
-    font-size: 30px;
-  }
-.text-overlay .overlay-button{
-    position: absolute;
-    bottom: 40px;
-    right: 15px;
-    background-color: #edf0f1;
-    color: rgb(180, 74, 109);
-    font-weight: bold;
-    text-align: right;
-    font-size: 30px;
-}
-
-
-
-.footer-header{
-    background-color: rgb(180, 74, 109);
-    padding: 2rem;
-    text-align: center;
-    max-width: 100%;
-    margin: auto;
-    margin-top: 2rem;
-    
-}
-.title{
+.category p{
+    font-size: larger;
     color: #edf0f1;
 }
-.dismiss{
-    padding: 0.5rem;
-    text-align: center;
-    justify-content: center;
-   
-}
-.footer-header h2{
-    background-color: rgb(180, 74, 109);
-   
-}  
-.footer-header p{
-    background-color: rgb(180, 74, 109);
-}
-.footer-header .social,.inline,.git{
-    background-color: rgb(180, 74, 109);
-    text-align: center;
-    list-style: none;
-    display: inline;
-    padding: 0 1rem;
-    margin-top: 0px;
-}
-.card-container{
-    display: flex;
-    flex-direction: row;
-  padding: 2rem;
-  
-}
-
-.container{
-    max-width: 400px;
-    margin: auto;
-    padding: 0px;
-   
-}
 
 
-.wishlist-title{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.badge-card{
-    color:#edf0f1;
-
-}
-.wishlist-btn{
-display: grid;
-
-
-}
-.save-button{
-margin:1rem;
-}
-.buy-button{
-
-}
