@@ -1,0 +1,151 @@
+
+body{
+    max-width: 450px;
+    margin: auto;
+    background-color:#242524 ;
+}
+
+.address{
+    border: 1px solid rgb(180,74,109);
+    margin-top: 2rem;
+    background-color: #edf0f1;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(194, 77, 77, 0.2), 0 6px 20px 0 rgba(219, 40, 40, 0.19);
+}
+.address p,h3{
+    margin: 1rem;
+}
+.edit-button{
+ margin:1em 1em;
+ width: 5rem;
+ height:2rem;
+ background-color: #242524;
+ color: rgb(180,74,109);
+ border-radius: 0.5rem;
+}
+
+.cart-container{
+    border: 1px solid white;
+    display: flex;
+    width: 400px;
+    height: 20px;
+}
+.horizantal-card-container{
+    display: flex;
+  margin-top: 10vh;
+  border: 2px solid rgb(180,74,109);
+   
+   }
+   .horizantal-card{
+       display: grid;
+       grid-auto-flow: column;  
+       position: relative; 
+       column-gap: 8px;
+   }
+   .horizantal-image img{
+      padding: 8px 4px;
+      height: 200px;
+   }
+   .btn-text-one{
+    color: #242524;
+    background-color: rgb(180,74,109); 
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width:100%;
+    cursor: pointer;
+    font-size: medium;
+    border: 1px solid rgb(180,74,109);
+    margin:2px 2px;
+}
+.btn-text-two{
+    background-color: #242524;
+    color: white; 
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width:100%;
+    cursor: pointer;
+    font-size: medium;
+    border: 1px solid rgb(180,74,109);
+    margin:2px 2px;
+}
+.insertion{
+    margin-right: 0.25rem;
+    width:3rem;
+    cursor: pointer;
+    max-width: 3rem;
+    margin: auto;
+    padding: 0.5rem;
+
+}
+.cart-para{
+    color: #edf0f1;
+    font-size: large;
+}
+.icons{
+    margin-top: 2rem;
+}
+.insertion:hover{
+    background-color: rgb(180,74,109);
+    font-weight: 600;
+    font-size: large;
+}
+.title{
+    color: #edf0f1;
+}
+.add{
+    display: flex;
+    position: relative;
+    margin-top: 1rem;
+   
+}
+.checkout-container{
+    border: 1px solid rgb(180,74,109);
+    margin-top: 4rem;
+    height:400px;
+
+}
+
+.checkout-title{
+    color: #edf0f1;
+    text-align: center;
+
+}
+hr{
+    color: #edf0f1;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+.check-btn{
+    text-align: center;
+}
+.checkout-para{
+    text-align: left;
+    color: #edf0f1;
+    margin-left: 2rem;
+}
+.checkout-button{
+    width:300px;
+  text-align: center;
+  background-color: rgb(180,74,109);
+border-radius: 0.5rem;
+height: 3rem;
+color: #edf0f1;
+font-size: large;
+cursor: pointer;
+}
+.checkout-button:hover{
+    background-color: transparent;
+    border:1px solid rgb(180,74,109)
+}
+
+.checkout-price{
+    margin-left: 12rem;
+}
+ .two{
+    margin-left: 9rem;
+}
+.inline{
+    display: flex;
+    
+}
