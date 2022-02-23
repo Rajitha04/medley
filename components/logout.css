@@ -8,6 +8,10 @@
       left: 50%;
       max-height: 400px;
   }
+ button a{
+     background-color: #242524;
+     text-decoration: none;
+ }
   .toast{
       width: 100%;
       height: 200px;
