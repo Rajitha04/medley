@@ -12,6 +12,12 @@ li,a,button{
     color:#edf0f1;
     text-decoration: none;
 }
+.overlay-button a{
+   color:rgb(180, 74, 109);
+   background-color: #edf0f1;
+   font-size: xx-large;
+}
+
 header{
     display: flex;
     justify-content: space-between;
